@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql:///english_study
+      username: root
+      password: Kiki.1452kik
+      driver-class-name: com.mysql.cj.jdbc.Driver
